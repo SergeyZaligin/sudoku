@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 20px;
+}
+
+#playGround{
+	width: 100%;
+	text-align: center;
+}
+
+.sudoku{
+	display: inline-block;
+	border: solid 2px;
+	border-spacing: 1px;
+}
+
+.sudoku td {
+	border: solid 1px;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.sudoku td.top {
+	border-top: solid 2px;
+}
+
+.sudoku td.bottom {
+	border-bottom: solid 2px;
+}
+
+.sudoku td.left {
+	border-left: solid 2px;
+}
+
+.sudoku td.right {
+	border-right: solid 2px;
+}
